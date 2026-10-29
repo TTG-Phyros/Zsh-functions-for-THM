@@ -67,7 +67,7 @@ discord() {
 
 # Start a preconfigured thm vpn
 startvpnthm() {
-  local config="/home/kali/.bash_related/Phyros.ovpn"
+  local config="~/.bash_related/THM_VPN.ovpn"
 
   if [[ ! -f "$config" ]]; then
     echo "❌ VPN config not found at: $config"
